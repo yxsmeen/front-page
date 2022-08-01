@@ -1,0 +1,64 @@
+.App {
+  font-family: "Signika", sans-serif;
+}
+
+body {
+  height: 100%;
+  background-color: #eae2b7;
+  background-image: linear-gradient(#eae2b7, #0c4f72);
+  background-attachment: fixed;
+}
+#head {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #eae2b7;
+  border: 1px solid #0c4f72;
+}
+p.bold {
+  font-weight: bold;
+  color: #0c4f72;
+  font-size: 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #eae2b7;
+  border: 1px solid #0c4f72;
+}
+
+p.normal {
+  font-weight: normal;
+  font-size: 100px;
+}
+
+#makered {
+  color: #d62828;
+}
+
+#newline {
+  display: block;
+}
+
+/* .Menu {
+  background-image: url(.menu-icon);
+} */
+
+p.makeButton {
+  font-size: 30px;
+}
+
+#outline {
+  position: static;
+  padding: 10px;
+  color: #eae2b7;
+  background-color: #d62828;
+  border-radius: 15px 15px 15px 15px;
+  /* border: 1px solid #0c4f72; */
+}
+
+#makebold {
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
